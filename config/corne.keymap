@@ -104,10 +104,10 @@
 
     raise {
       bindings = <
-&trans  &trans          &trans          &trans        &kp MINUS         &kp PLUS          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &trans  &trans
-&trans  &trans          &trans    &kp UP_ARROW    &kp KP_DIVIDE  &kp KP_MULTIPLY      &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW           &trans    &kp KP_EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-                                        &trans           &trans           &trans       &kp ENTER        &trans        &trans
+&trans  &trans          &trans                             &trans                 &kp MINUS         &kp PLUS          &trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &trans  &trans
+&trans  &trans          &trans                       &kp UP_ARROW             &kp KP_DIVIDE  &kp KP_MULTIPLY      &kp PERIOD      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &trans  &trans
+&trans  &trans  &kp LEFT_ARROW                     &kp DOWN_ARROW           &kp RIGHT_ARROW           &trans    &kp KP_EQUAL      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+                                &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AL_KEYBOARD_LAYOUT           &trans       &kp ENTER  &kp K_CALCULATOR     &kp K_WWW
       >;
     };
 
