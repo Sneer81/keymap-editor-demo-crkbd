@@ -95,10 +95,10 @@
 
     base {
       bindings = <
-&trans  &kp Q  &kp W           &kp F         &kp P            &kp B          &kp J         &kp L        &kp U                       &kp Y    &kp ESCAPE  &trans
-&trans  &kp A  &kp R     &hm LCTRL S         &kp T            &kp G          &kp M  &hm RSHIFT N  &hm K_WWW E  &hm C_AL_KEYBOARD_LAYOUT I  &hm INSERT O  &trans
-&trans  &kp Z  &kp X           &kp C         &kp D            &kp V          &kp K         &kp H    &kp COMMA                     &kp DOT  &kp QUESTION  &trans
-                      &mt ESCAPE TAB  &kp KP_ENTER  &lt 1 BACKSPACE    &lt 2 SPACE       &kp TAB     &kp RALT
+&trans  &kp Q  &kp W                 &kp F            &kp P            &kp B          &kp J    &kp L      &kp U    &kp Y    &kp ESCAPE  &trans
+&trans  &kp A  &kp R                 &kp S            &kp T            &kp G          &kp M    &kp N      &kp E    &kp I         &kp O  &trans
+&trans  &kp Z  &kp X                 &kp C            &kp D            &kp V          &kp K    &kp H  &kp COMMA  &kp DOT  &kp QUESTION  &trans
+                      &mt LEFT_CONTROL TAB  &mt LSHFT ENTER  &lt 1 BACKSPACE    &lt 2 SPACE  &kp TAB   &kp RALT
       >;
     };
 
