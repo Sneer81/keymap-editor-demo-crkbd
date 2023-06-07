@@ -95,28 +95,28 @@
 
     base {
       bindings = <
-&trans       &kp Q       &kp W           &kp F         &kp P            &kp B          &kp J         &kp L        &kp U                       &kp Y    &kp ESCAPE  &trans
-&trans  &hm LGUI A  &hm LALT S     &hm LCTRL D  &hm LSHIFT F            &kp G          &kp M  &hm RSHIFT J  &hm K_WWW E  &hm C_AL_KEYBOARD_LAYOUT I  &hm INSERT O  &trans
-&trans       &kp Z       &kp X           &kp C         &kp V            &kp B          &kp N         &kp M    &kp COMMA                     &kp DOT  &kp QUESTION  &trans
-                                &mt ESCAPE TAB  &kp KP_ENTER  &lt 1 BACKSPACE    &lt 2 SPACE       &kp TAB     &kp RALT
+&trans  &kp Q  &kp W           &kp F         &kp P            &kp B          &kp J         &kp L        &kp U                       &kp Y    &kp ESCAPE  &trans
+&trans  &kp A  &kp R     &hm LCTRL S         &kp T            &kp G          &kp M  &hm RSHIFT N  &hm K_WWW E  &hm C_AL_KEYBOARD_LAYOUT I  &hm INSERT O  &trans
+&trans  &kp Z  &kp X           &kp C         &kp D            &kp V          &kp K         &kp H    &kp COMMA                     &kp DOT  &kp QUESTION  &trans
+                      &mt ESCAPE TAB  &kp KP_ENTER  &lt 1 BACKSPACE    &lt 2 SPACE       &kp TAB     &kp RALT
       >;
     };
 
     raise {
       bindings = <
-&trans  &trans          &trans          &trans        &kp MINUS         &kp PLUS       &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &trans  &trans
-&trans  &trans          &trans    &kp UP_ARROW    &kp KP_DIVIDE  &kp KP_MULTIPLY       &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW           &trans       &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-                                        &trans           &trans           &trans    &kp EQUAL        &trans    &kp PERIOD
+&trans  &trans          &trans          &trans        &kp MINUS         &kp PLUS          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &trans  &trans
+&trans  &trans          &trans    &kp UP_ARROW    &kp KP_DIVIDE  &kp KP_MULTIPLY      &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW           &trans    &kp KP_EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+                                        &trans           &trans           &trans       &kp ENTER        &trans        &trans
       >;
     };
 
     lower {
       bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR     &trans
-&trans    &trans  &trans    &trans    &trans     &trans    &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
-&trans    &trans  &trans    &trans    &trans     &trans    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                            &trans     &mo 3     &trans       &trans     &trans           &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS  &kp LPAR  &kp RPAR     &kp LESS_THAN     &trans
+&trans    &trans  &trans    &trans    &trans     &trans    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp GREATER_THAN  &kp GRAVE
+&trans    &trans  &trans    &trans    &trans     &trans    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC          &kp PIPE  &kp TILDE
+                            &trans     &mo 3     &trans       &trans     &trans    &trans
       >;
     };
 
