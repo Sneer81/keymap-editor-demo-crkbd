@@ -86,7 +86,7 @@
       compatible = "zmk,behavior-macro";
       label = "ZM_zed_em_kay";
       #binding-cells = <0>;
-      bindings = <&macro_tap>, <&kp ENTER>, <&macro_press>, <&kp BACKSPACE>;
+      bindings = <&macro_tap>, <&kp DOT>, <&macro_press>, <&kp COMMA>;
 
       tap-ms = <30>;
     };
@@ -97,10 +97,10 @@
 
     base {
       bindings = <
-&trans  &kp Q  &kp W  &kp F    &kp P                   &kp B              &kp J        &kp L                  &kp U                   &kp Y    &mt ESC SEMICOLON  &trans
-&trans  &kp A  &kp R  &kp S    &kp T                   &kp G              &kp M        &kp N                  &kp E                   &kp I    &kp O              &trans
-&trans  &kp Z  &kp X  &kp C    &kp D                   &kp V              &kp K        &kp H                  &kp COMMA               &kp DOT  &kp QUESTION       &trans
-                      &kp TAB  &mt LEFT_SHIFT LS(TAB)  &lt 1 BACKSPACE    &lt 2 SPACE  &mt RC(RS(ESC)) ENTER  &mt SINGLE_QUOTE MINUS
+&trans  &kp Q  &kp W  &kp F               &kp P            &kp B              &kp J        &kp L                  &kp U                   &kp Y                  &mt ESC SEMICOLON  &trans
+&trans  &kp A  &kp R  &kp S               &kp T            &kp G              &kp M        &kp N                  &kp E                   &kp I                  &kp O              &trans
+&trans  &kp Z  &kp X  &kp C               &kp D            &kp V              &kp K        &kp H                  &tapdancing             &mt EXCLAMATION QMARK  &kp QUESTION       &trans
+                      &mt LEFT_SHIFT TAB  &mt TAB LS(TAB)  &lt 1 BACKSPACE    &lt 2 SPACE  &mt RC(RS(ESC)) ENTER  &mt SINGLE_QUOTE MINUS
       >;
     };
 
@@ -108,7 +108,7 @@
       bindings = <
 &trans  &trans           &trans          &trans          &kp MINUS        &new_behavior PLUS MINUS    &new_behavior KP_MULTIPLY KP_DIVIDE  &kp NUMBER_1                        &kp NUMBER_2     &kp NUMBER_3  &tapdancing      &trans
 &trans  &mt LC(N) LC(W)  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans                      &kp PERIOD                           &kp NUMBER_4                        &kp NUMBER_5     &kp NUMBER_6  &kp EXCLAMATION  &trans
-&trans  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                      &kp KP_EQUAL                         &kp NUMBER_7                        &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0     &trans
+&trans  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                      &kp EQUAL                            &kp NUMBER_7                        &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0     &trans
                                          &trans          &trans           &trans                      &mt LC(C) LC(V)                      &mt LG(LEFT_ARROW) LC(RIGHT_ARROW)  &mt RG(L) RG(E)
       >;
     };
